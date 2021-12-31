@@ -8,19 +8,32 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <label>Nombre:</label>
-    <input id="nombre" />
-    <button id="btn-agregar">Agregar</button>
-    <button id="btn-reset">Limpiar todos</button>
-    <button id="borrar-ultimo">Borrar Ultimo</button>
-    
 
-    <h2>Participantes:</h2>
-    <ol id="listado"></ol>
-    <button id="btn-sortear">Sortear</button>
+    <div class="derecha">
+      <div class="participante">
+        <h2>NOMBRE:</h2>
+        <input id="nombre" />
+        <div>
+          <button id="btn-agregar">Agregar</button>
+          <button id="btn-reset">Limpiar todos</button>
+          <button id="borrar-ultimo">Borrar Ultimo</button>
+        </div>
+      </div>
+      
+      <div class="lista-participantes">
+        <h2>PARTICIPANTES:</h2>
+        <ol id="listado"></ol>
+        <button id="btn-sortear">Sortear</button>
+      </div>
+    </div>
 
-    <label>El ganador es:</label>
-    <div id="ganador"></div>
+    <div class="izquierda">
+      <div class="ganador">
+        <h2>EL GANADOR ES:</h2>
+        <div id="ganador"></div>
+      </div>
+    </div>
+
     <script src="./js/main.js"></script>
   </body>
 </html>

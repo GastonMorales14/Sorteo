@@ -28,7 +28,7 @@ function mostrar() {
 
 function sortear() {
   let n = Math.floor(Math.random()*nombres.length);
-  document.querySelector("#ganador").innerHTML = nombres[n];
+  document.querySelector("#ganador").innerHTML = nombres[n] + "!!";
 }
 
 document.querySelector("#btn-agregar").addEventListener("click", agregar);

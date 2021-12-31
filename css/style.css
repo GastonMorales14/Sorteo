@@ -1,11 +1,42 @@
-*{
+body{
     margin: 0;
     padding: 0;
-    background-color: rgb(61, 202, 207);
+    background-image: url(/images/fondoo.jpg);
+    display: flex;
+    flex-direction: row;
+    
 }
-body{
-    padding-left: 3%;
+*{
+    font-size: 30px;
+    color: azure;
 }
-label,input,button{
-margin: 1%;
+.derecha,.izquierda{
+    width: 50%;
+}
+.participante, .lista-participantes, .ganador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+h2{
+    font-size: 40PX;
+    
+}
+
+input{
+    width: 40%;
+    min-height: 50px;
+    color: black;
+}
+button{
+    margin-top: 3%;
+    border-radius: 200px;
+    color: black;
+}
+#ganador{
+    font-size: 130px;
+
 }
