@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(61, 202, 207);
+}
+body{
+    padding-left: 3%;
+}
+label,input,button{
+margin: 1%;
+}
